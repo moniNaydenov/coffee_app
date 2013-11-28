@@ -45,3 +45,7 @@ function loadDrinks() {
         
     });
 }
+
+function getRefNumber() {
+    $('.refnumber').text((Math.ceil(Math.random()*10000)));
+}
