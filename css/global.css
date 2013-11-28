@@ -56,12 +56,16 @@ body {
     font-weight: bold;
     color: #777;
 }
+.drinks {
+    
+  width: 300px;
+  display: inline-block;
+  height: 500px;
+}
 .swipe {
   overflow: hidden;
   visibility: hidden;
   position: relative;
-  width: 300px;
-  display: inline-block;
 }
 .swipe-wrap {
   overflow: hidden;
@@ -78,14 +82,13 @@ body {
 }
 .drink {
     text-align: left;
-    width: 300px;
+    width: 280px;
     height: 500px;
-    padding: 10px;
 }
 
 .drink .image {
-    max-width: 150px;
-    max-height: 150px;
+    width: 150px;
+    height: 150px;
     box-shadow: 5px 5px 5px #888888;
     float: left;
     margin: 5px 10px 10px 5px;
@@ -109,4 +112,13 @@ body {
 
 .drink .topcoat-radio-button {
     margin: 10px;
+}
+
+.extra {
+    margin: 10px;
+}
+
+.extra .title {
+    text-align: left;
+    color: #333;
 }

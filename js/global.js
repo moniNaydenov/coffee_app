@@ -23,31 +23,24 @@ $.urlParam = function(name){
 function loadDrinks() {
     var drinkType = $.urlParam('type');
     $.ajax({
-        url         : 'data/' + drinkType + '.xml',
-        dataType    : 'xml',
+        url         : 'data/' + drinkType + '.html',
+        dataType    : 'text',
         success     : function(data, textStatus, jqXHR) {
+            /*
             var drinks = $(data.firstElementChild);
-            var t = document.querySelector('#drinktemplate');
-            drinks.children('drink').each(function(){
+            drinks.children('drink').each(function(){ 
                 var drink = $(this);
-                console.log(drink.children('name').html());
-                t.content.querySelector('img.image').src = 'images/'+drink.children('image').html();
-                t.content.querySelector('div.title').innerHTML = drink.children('name').html();
-                t.content.querySelector('div.description').innerHTML = drink.children('description').html();
-                t.content.querySelector('span.pricesmall').innerHTML = drink.children('pricesmall').html();
-                t.content.querySelector('span.pricelarge').innerHTML = drink.children('pricelarge').html();
-                
-                
-                
-                /*
-                console.log(title);
-                console.log(description);
-                console.log(priceL);
-                console.log(priceS);
-                console.log(imageurl);*/
-                $('#drinks_holder').append(t.content.cloneNode(true));
-            });
-            window.mySwipe = Swipe(document.getElementById('slider'));
+                var t = $('#drinktemplate').clone();
+                t.find('div.title').html(drink.children('title').text());
+                t.find('div.description').html(drink.children('description').text());
+                t.find('span.pricesmall').html(drink.children('pricesmall').text());
+                t.find('span.pricelarge').html(drink.children('pricelarge').text());
+                t.find('img.image').attr('src', 'images/'+drink.children('image').text());
+                $('#drinks_holder').append(t.children('.drink').clone());
+                //$('.page_holder').append(t.children('.drink'));
+            });*/
+            $('#drinks_holder').append(data);
+            window.mySwipe = Swipe(document.getElementById('slider'), {disableScroll: true, continuous: false});
         }
         
     });
