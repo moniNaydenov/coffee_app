@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/swipe.js"></script>
+<script src="js/global.js"></script>
+<link rel="stylesheet" href="css/topcoat-mobile-light.css">
+<link rel="stylesheet" href="css/global.css">
+<template id="drinktemplate">
+<div class="drink">
+    <img src="" class="image"/>
+    <div class="title"></div>
+    <div class="description"></div>
+    <label class="topcoat-radio-button">
+        <input type="radio" name="topcoat">
+        <div class="topcoat-radio-button__checkmark"></div>
+        Regular: <span class="pricesmall"></span>
+    </label><br />
+    <label class="topcoat-radio-button">
+        <input type="radio" name="topcoat">
+        <div class="topcoat-radio-button__checkmark"></div>
+        Large: <span class="pricelarge"></span>
+    </label><br />    
+    <div style="text-align: center;">
+        <button class="topcoat-button" onclick="nav('main')">Back</button>
+        <button class="topcoat-button--cta" onclick="nav('choose2')">Next</button>
+    </div>
+</div>
+</template>
+
+
+</head>
+<body>
+<div class="page_holder">
+<div class="balance">Current balance: <span class="money">&pound; 20</span></div>
+<div id="slider" class="swipe">
+  <div class="swipe-wrap" id="drinks_holder">
+  </div>
+</div>
+<div class="tip">slide for more...</div>
+</div>
+<script>
+    loadDrinks();
+</script>
+</body>
+</html>

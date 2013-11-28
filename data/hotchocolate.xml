@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<drinks>
+<drink>
+
+<image>hot.jpg</image>
+
+<name>Hot Chocolate</name>
+
+<description>Do you remember your first hot chocolate? Sweet, creamy comfort in a cup. You instantly pegged it the best drink on earth. Chances are you’ll feel the same about our version of this classic beverage. Made with steamed milk, vanilla and mocha-flavored syrups, and topped with a generous swirl of sweetened whipped cream, we bet it tastes even better than the one you remember.</description>
+
+<pricelarge>2.80</pricelarge>
+
+<pricesmall>2.20</pricesmall>
+
+</drink>
+</drinks>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<drinks>
+<drink>
+
+<image>green.jpg</image>
+
+<name>Green Tea</name>
+
+<description>Green tea is known for its smooth flavor and refreshing taste. Twinings Green Tea is a style called "Sencha", known for its smooth, mild characteristics. Green Tea is pure and natural; smooth in flavor and refreshing taste.</description>
+
+<pricelarge>2.80</pricelarge>
+
+<pricesmall>2.20</pricesmall>
+
+</drink>
+
+<drink>
+
+<image>earl_gray.jpg</image>
+
+<name>Earl Gray Tea</name>
+
+<description>Earl Grey tea is a tea blend with a distinctive flavour and aroma derived from the addition of oil extracted from the rind of the bergamot orange, a fragrant citrus fruit.Traditionally, the term "Earl Grey" has applied only to black teas that contain oil of bergamot as flavouring.</description>
+
+<pricelarge>2.80</pricelarge>
+
+<pricesmall>2.20</pricesmall>
+
+</drink>
+
+
+<drink>
+
+<image>peppermint.jpg</image>
+
+<name>Peppermint Tea</name>
+
+<description>Peppermint is renowned for its refreshing properties. The plant is native to the Mediterranean and Asia, but today, peppermint is grown in temperate regions around the world. Twinings Pure Peppermint Herbal Tea is made from 100% select peppermint leaves and is naturally caffeine free. </description>
+
+<pricelarge>2.80</pricelarge>
+
+<pricesmall>2.20</pricesmall>
+
+</drink>
+
+
+<drink>
+
+<image>english.jpg</image>
+
+<name>English Breakfast</name>
+
+<description>Twinings English Breakfast Tea was originally blended to complement the traditional, hearty English breakfast, from which its name derives. It can be enjoyed with or without milk, sweetened or unsweetened - the choice is yours. English breakfast tea is a rich and satisfying robust tea, traditionally blended with Kenyan and Assam black teas.</description>
+
+<pricelarge>2.80</pricelarge>
+
+<pricesmall>2.20</pricesmall>
+
+</drink>
+</drinks>
+
+

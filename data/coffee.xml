@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<drinks>
+<drink>
+
+<image>espresso.jpg</image>
+
+<name>Espresso</name>
+
+<description>The sepresso's rich flavor, lingering aroma and caramelly sweetness make it the perfect foundation for lattes, cappuccinos and all our espresso-based beverages. But you can also enjoy it all by itself – indeed, that might be the best way to discover its nuances</description>
+
+<pricelarge>2.80</pricelarge>
+
+<pricesmall>2.20</pricesmall>
+
+</drink>
+
+<drink>
+
+<image>caffe_latte.png</image>
+
+<name>Caffé Latte</name>
+
+<description>This is the original coffeehouse classic. And like most classics, part of its appeal comes from its simplicity. A caffè latte is simply a shot or two of bold, tasty espresso with fresh, sweet steamed milk over it. Some prefer to add syrup or extra espresso to the recipe. Some maintain that it is entirely perfect as is.</description>
+
+<pricelarge>2.80</pricelarge>
+
+<pricesmall>2.20</pricesmall>
+
+</drink>
+
+
+<drink>
+
+<image>mochaccino.jpg</image>
+
+<name>Caffè Mocha </name>
+
+<description>There’s no question chocolate and coffee are flavors that meant for each other. Both are rich and full of depth. Where one is creamy, the other is roasty. They complement each other perfectly. And when they come together under a fluffy cloud of sweetened whipped cream, you’ll wish their union would last forever.</description>
+
+<pricelarge>2.80</pricelarge>
+
+<pricesmall>2.20</pricesmall>
+
+</drink>
+
+
+<drink>
+
+<image>americano.jpg</image>
+
+<name>Caffè Americano</name>
+
+<description>In Europe, coffee is essentially espresso – which, in America, isn’t very much coffee. To create a caffè americano – a coffee that satisfies the American preference for more sips in every cup – Europeans simply add hot water to their espresso. While the americano is similar in strength and taste to American-style brewed coffee, there are subtle differences achieved by pulling a fresh shot of espresso for the beverage base. </description>
+
+<pricelarge>2.80</pricelarge>
+
+<pricesmall>2.20</pricesmall>
+
+</drink>
+
+<drink>
+
+<image>cappuccino.jpg</image>
+
+<name>Cappuccino</name>
+
+<description>With less milk than a latte, cappuccino offers a stronger espresso flavor and a luxurious texture. To make it properly requires much skill and attentiveness. Arguably the most important part is frothing the foam to velvety perfection as the milk steams – something our baristas take great care to achieve. The milky moustache that clings to your upper lip is proof we’ve made yours right. And may we say, you wear it well.</description>
+
+<pricelarge>2.80</pricelarge>
+
+<pricesmall>2.20</pricesmall>
+
+</drink>
+
+</drinks>
