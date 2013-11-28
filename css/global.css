@@ -1,0 +1,57 @@
+body {
+    background-color: #CCE5DC;
+}
+.logo {
+    width: 200px;
+    height: 84px;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.page_holder {
+    margin-top: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.topcoat-button--cta,
+.topcoat-text-input {
+    margin: 10px;
+}
+
+.login_fb {
+    margin: 10px;
+    width: 180px;
+    height: 41px;
+    background-image: url('../images/fb.png');
+    cursor: pointer;
+    
+    display: inline-block;
+}
+
+.drink_thumb {
+    width: 50px;
+    position: absolute;
+    left: 10px;
+    height: 50px;
+}
+
+.drink_thumb_big {
+    
+}
+
+.topcoat-button.with_icon {
+    padding: 5px;
+    min-width: 200px;
+    padding-left: 50px;
+    font-weight: bold;
+    margin: 10px;
+}
+.balance {
+    font-size: 18px;
+    color: #888;
+}
+.balance .money {
+    font-weight: bold;
+    color: #777;
+}
